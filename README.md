@@ -17,5 +17,7 @@ This project is a Number Memorization Game. The goal of the game is to read and 
 Functional Requirements: 
  - User can see the welcome screen
  - User can access the game
+ - User can see a series of numbers
+ - User can see a textbox to enter the sequence after the original sequence is no longer visible
  - Game works with no errors
  - User can see an end screen 
