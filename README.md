@@ -7,6 +7,7 @@ Team Name: Null
 
 Team Members: 
 Aadil Baig, email: aadilb@my.yorku.ca, Lecture B, Lab 01
+
 Kyle Otero, email: kotero@my.yorku.ca, Lecture B, Lab 04
 
 Project Description:
