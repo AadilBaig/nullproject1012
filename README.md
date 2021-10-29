@@ -16,8 +16,11 @@ This project is a Number Memorization Game. The goal of the game is to read and 
 
 Functional Requirements: 
  - User can see the welcome screen
- - User can access the game
- - User can see a series of numbers
- - User can see a textbox to enter the sequence after the original sequence is no longer visible
- - Game works with no errors
- - User can see an end screen 
+ - Instructions for play are displayed
+ - User clicks the start button
+ - First sequence of numbers is displayed
+ - User has 4.5 seconds to memorize the sequence
+ - User then gets prompted to enter the sequence that they remember
+ - Screen displays correct sequence as well as the user input, shows if you advance to the next level or if you got it incorrect
+ - Once the player gets the sequence incorrect 3 times, end screen is displayed with highest score, and average time to submit an answer
+ - Player is then prompted to try again, or quit
