@@ -23,5 +23,6 @@ Functional Requirements:
  - User has 3/4/5 seconds to memorize the sequence based off difficulty
  - User then gets prompted to enter the sequence that they remember
  - Screen displays correct sequence as well as the user input, shows if you advance to the next level or if you got it incorrect
+ - When the user advances to the next level, the number sequence increases in the amount of digits.
  - Once the player gets the sequence incorrect 3 times, end screen is displayed with most recent score, highest score, and average time to submit an answer
  - Player is then prompted to try again, or quit
