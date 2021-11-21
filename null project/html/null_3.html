@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="En">
+  <head>
+    <meta charset="UTF-8" />
+    <title>null</title>
+    <link rel="stylesheet" type="text/css" href="../null.css" title="style" />
+    <script src="../js/null_3.js"></script>
+  </head>
+  <body onload="main(true)">
+    <div class="center">
+      <h1 id="numbers">test</h1>
+      <!--answer page-->
+      <div id="container" class="hidden">
+        <form>
+          <label id="numberinput">
+            <input id="testinput" required />
+            <span id="newlabel">Enter the displayed number.</span>
+          </label>
+        </form>
+      </div>
+      <!--results page-->
+      <div class="hidden" id="resultcontainer">
+        <h1 id="result"></h1>
+            <br>
+        <h2 id="correct"></h1>
+            <br>
+        <h2 id="useranswer"></h1>
+      </div>
+    </div>
+    <div id="outerTime">
+      <div id="timer"></div>
+    </div>
+    <div class="corner">
+      <!--answer page-->
+      <a class="button hidden" id="button1">Next.</a>
+      <!--result page-->
+      <a class="button hidden" id="button2" onClick="main()">Next.</a>
+    </div>
+  </body>
+</html>

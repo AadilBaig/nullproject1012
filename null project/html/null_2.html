@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="En">
+  <head>
+    <meta charset="UTF-8" />
+    <title>null</title>
+    <link rel="stylesheet" type="text/css" href="../null.css" title="style" />
+    <script src="../js/null_2.js"></script>
+  </head>
+  <body>
+    <div class="centerleft">
+      <ul class="diffRadio">
+        <li>
+          <input
+            class="radiob"
+            type="radio"
+            value="0"
+            name="difficulty"
+            id="easyDiff"
+            checked="checked"
+          />
+          <label for="easyDiff">Easy</label>
+        </li>
+        <br />
+        <li>
+          <input
+            class="radiob"
+            type="radio"
+            value="1"
+            name="difficulty"
+            id="medDiff"
+          />
+          <label for="medDiff">Medium</label>
+        </li>
+        <br />
+        <li>
+          <input
+            class="radiob"
+            type="radio"
+            value="2"
+            name="difficulty"
+            id="hardDiff"
+          />
+          <label for="hardDiff">Hard</label>
+        </li>
+      </ul>
+    </div>
+    <div class="centerright">
+      <p id="intro2">
+        This project is a Number Memorization Game. The goal of the game is to
+        read and memorize the sequence of numbers which get displayed on the
+        screen for a short amount of time, then the user/player will try and
+        enter the numbers which they remember. The more sequences the
+        user/player gets correct, the more numbers they have to memorize. The
+        sequence will be made, confirmed and stored on the server side. After
+        the player gets the sequence wrong three times, they are faced with an
+        end screen that presents their highest score, as well as the average
+        time to submit an answer.
+      </p>
+    </div>
+    <div class="corner">
+      <a class="button" onClick="start1()">Start.</a>
+    </div>
+  </body>
+</html>
