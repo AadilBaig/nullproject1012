@@ -23,6 +23,6 @@ Functional Requirements:
 -	If the user enters a wrong number sequence, they will lose a life and are shown the original number sequence as well as their input. 
 -	If the user enters the correct number sequence, they will be shown the original sequence as well as their answer.
 -	“Continue” button which allows the user to attempt the next level 
--	Once the player gets the sequence incorrect 3 times, end screen is displayed with most recent score, highest score, and average time to submit an answer.
+-	Once the player gets the sequence incorrect 3 times, end screen is displayed with most recent score, highest score.
 -	“Try again” button at end screen which restarts the game
 - “Quit” button at end screen which exits to main menu
