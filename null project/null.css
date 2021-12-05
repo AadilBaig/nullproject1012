@@ -114,9 +114,15 @@ html {
 }
 
 .corner {
-  transform: translate(92%, 3300%);
+  position: absolute;
+  transform: translate(10%, 10%);
   top: 90%;
   left: 90%;
+}
+
+.uppercorner {
+  margin-top: 3%;
+  margin-left: 93%;
 }
 
 a {
